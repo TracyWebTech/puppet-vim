@@ -1,5 +1,5 @@
 class vim (
-  $vim_file = 'puppet:///vim/vimrc.local'
+  $vim_file = 'puppet:///modules/vim/vimrc.local'
   ) {
   
   file { 'editor_vim':
