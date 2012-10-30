@@ -9,7 +9,7 @@ class vim (
   }
 
   file { 'vimrc':
-    path =>   '/etc/vim/vimrc.local',
+    path   =>   '/etc/vim/vimrc.local',
     ensure => present,
     source => $vim_file
   }
